@@ -5,7 +5,6 @@ import cs50
 if len(sys.argv) != 3:
     sys.exit()
 
-#walkthough w/ reese and max on october 27
 #opening csv file
 file1 = open(sys.argv[2])
 dna_seq = file1.read()
